@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MedControl</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="salvar">SALVAR</string>
+    <string name="TITULO1">Cadastro de medicamentos</string>
+    <string name="NOMEM">Nome Medicamento</string>
+    <string name="HORARIO">Horário(EX: 08:00)</string>
+    <string name="QUANTIDADE">Quantidade</string>
+    <string name="OBSERVAÇÃO">Observações(OPCIONAL)</string>
+    <string name="TITULO2">MedControl</string>
+    <string name="sair">SAIR</string>
+    <string name="LISTAM">LISTA MEDICAMENTOS</string>
+    <string name="CADASTRARM">CADASTRAR MEDICAMENTOS</string>
+    <string name="usuatio">Usuário</string>
+    <string name="login">LOGIN</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="TITULO3">Lista de Medicamentos</string>
+</resources>
