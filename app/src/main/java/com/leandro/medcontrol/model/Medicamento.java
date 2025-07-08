@@ -1,19 +1,13 @@
 package com.leandro.medcontrol.model;
 
-public class Medicamento {
+import java.io.Serializable;
+public class Medicamento implements Serializable {
     private int id;
     private String nome;
     private String horario;
     private int quantidade;
     private String observacoes;
-    public Medicamento() {}
-    public Medicamento(int id, String nome, String horario, int quantidade, String observacoes) {
-        this.id = id;
-        this.nome = nome;
-        this.horario = horario;
-        this.quantidade = quantidade;
-        this.observacoes = observacoes;
-    }
+
     // Getters e Setters
     public int getId() {
         return id;

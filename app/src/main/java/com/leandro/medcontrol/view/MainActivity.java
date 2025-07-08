@@ -2,6 +2,7 @@ package com.leandro.medcontrol.view;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import com.leandro.medcontrol.R;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnListaMedicamentos, btnCadastrarMedicamento, btnSair;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, CadastroMedicamentos.class);
             startActivity(intent);
         });
-        btnSair.setOnClickListener(v -> finish());
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, login.class);
+                // Finaliza a activity atual para não voltar ao clicar no botão "Voltar"
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

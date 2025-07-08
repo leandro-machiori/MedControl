@@ -30,7 +30,7 @@
                 android:text="@string/TITULO3"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:textColor="#00796B"
+                android:textColor="@color/green"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp" />
             <ListView
@@ -40,7 +40,14 @@
                 android:layout_weight="1"
                 android:divider="@android:color/darker_gray"
                 android:dividerHeight="1dp" />
-
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/red"
+                android:text="@string/Voltar"
+                android:layout_margin="16dp" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

@@ -14,13 +14,36 @@
         android:theme="@style/Theme.MedControl"
         tools:targetApi="31">
         <activity
-            android:name=".view.MainActivity"
+            android:name=".view.splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".view.CadastroMedicamentos"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".view.CadastroUsuario"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".view.ListaMedicamentos"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".view.login"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".view.RecuperarSenha"
+            android:exported="false">
         </activity>
     </application>
 

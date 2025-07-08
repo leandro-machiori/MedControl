@@ -8,7 +8,7 @@
     <string name="TITULO1">Cadastro de medicamentos</string>
     <string name="NOMEM">Nome Medicamento</string>
     <string name="HORARIO">Horário(EX: 08:00)</string>
-    <string name="QUANTIDADE">Quantidade</string>
+    <string name="QUANTIDADE">Quantidade:</string>
     <string name="OBSERVAÇÃO">Observações(OPCIONAL)</string>
     <string name="TITULO2">MedControl</string>
     <string name="sair">SAIR</string>
@@ -17,5 +17,9 @@
     <string name="usuatio">Usuário</string>
     <string name="login">LOGIN</string>
     <string name="cadastrar">CADASTRAR</string>
+    <string name="NSenha">Nova Senha</string>
     <string name="TITULO3">Lista de Medicamentos</string>
+    <string name="Recuperar">Recuperar Senha</string>
+    <string name="Esqueci">Esqueci minha senha</string>
+    <string name="Voltar">VOLTAR</string>
 </resources>

@@ -6,14 +6,6 @@ public class Usuario {
     private String email;
     private String telefone;
     private String senha;
-    public Usuario() {}
-    public Usuario(int id, String nome, String email, String telefone, String senha) {
-        this.id = id;
-        this.nome = nome;
-        this.email = email;
-        this.telefone = telefone;
-        this.senha = senha;
-    }
     // Getters e Setters
     public int getId() {
         return id;

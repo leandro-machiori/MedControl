@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/green"
+        android:text="@string/TITULO2" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:hint="@string/usuatio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/editNovaSenha"
+        android:hint="@string/NSenha"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnRecuperar"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green3"
+        android:text="@string/Recuperar" />
+
+
+</LinearLayout>
