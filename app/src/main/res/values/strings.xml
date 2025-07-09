@@ -8,7 +8,7 @@
     <string name="TITULO1">Cadastro de medicamentos</string>
     <string name="NOMEM">Nome Medicamento</string>
     <string name="HORARIO">Horário(EX: 08:00)</string>
-    <string name="QUANTIDADE">Quantidade:</string>
+    <string name="QUANTIDADE">Quantidade</string>
     <string name="OBSERVAÇÃO">Observações(OPCIONAL)</string>
     <string name="TITULO2">MedControl</string>
     <string name="sair">SAIR</string>

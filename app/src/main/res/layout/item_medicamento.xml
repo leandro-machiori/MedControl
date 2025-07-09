@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:id="@+id/main"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:id="@+id/main"
-    android:padding="12dp"
-    android:background="@android:color/white"
-    android:layout_marginBottom="8dp"
-    android:elevation="2dp">
+    android:padding="12dp">
 
     <TextView
         android:id="@+id/tvNomeMedicamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/NOMEM"
-        android:textStyle="bold"
+        android:text="Nome"
         android:textSize="18sp"
-        android:textColor="#000000"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvHorarioMedicamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/HORARIO"
-        android:textSize="16sp"
-        android:textColor="#555555"
-        android:layout_marginTop="4dp"/>
+        android:text="Horário"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/tvQuantidadeMedicamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/QUANTIDADE"
-        android:textSize="16sp"
-        android:textColor="#555555"
-        android:layout_marginTop="2dp"/>
+        android:text="Quantidade"
+        android:textSize="14sp" />
+
 </LinearLayout>

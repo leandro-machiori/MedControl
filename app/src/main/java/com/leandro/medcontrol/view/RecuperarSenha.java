@@ -17,6 +17,7 @@ import com.leandro.medcontrol.model.Usuario;
 public class RecuperarSenha extends AppCompatActivity {
     private EditText editNome, editEmail, editNovaSenha;
     private Button btnRecuperar;
+    private Button btnVoltar;
     private UsuarioController usuarioController;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class RecuperarSenha extends AppCompatActivity {
         editNome = findViewById(R.id.editNome);
         editEmail = findViewById(R.id.editEmail);
         editNovaSenha = findViewById(R.id.editNovaSenha);
+        btnVoltar = findViewById(R.id.btnVoltar);
         btnRecuperar = findViewById(R.id.btnRecuperar);
         btnRecuperar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,5 +54,6 @@ public class RecuperarSenha extends AppCompatActivity {
                 }
             }
         });
+        btnVoltar.setOnClickListener(v -> finish());
     }
 }

@@ -14,6 +14,7 @@ import java.util.List;
 public class MedControlAdapter extends BaseAdapter {
     private Context context;
     private List<Medicamento> lista;
+
     public MedControlAdapter(Context context, List<Medicamento> lista) {
         this.context = context;
         this.lista = lista;
@@ -30,15 +31,16 @@ public class MedControlAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return lista.get(position).getId();
     }
-    @SuppressLint("ViewHolder")
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Medicamento medicamento = lista.get(position);
         View view = LayoutInflater.from(context).inflate(R.layout.item_medicamento, parent, false);
         TextView txtNome = view.findViewById(R.id.tvNomeMedicamento);
         TextView txtHorario = view.findViewById(R.id.tvHorarioMedicamento);
+        TextView txtQuantidade = view.findViewById(R.id.tvQuantidadeMedicamento);
         txtNome.setText(medicamento.getNome());
-        txtHorario.setText("Horário: " + medicamento.getHorario());
+        txtHorario.setText("Horários: " + medicamento.getHorarios());
+        txtQuantidade.setText("Quantidade: " + medicamento.getQuantidade());
         return view;
     }
 }
